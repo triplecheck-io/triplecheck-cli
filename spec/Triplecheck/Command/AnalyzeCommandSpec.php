@@ -26,4 +26,5 @@ class AnalyzeCommandSpec extends ObjectBehavior
     {
         $this->getDescription()->shouldReturn('Analyze the current path and return the a report with the problems if any.');
     }
+
 }

@@ -16,4 +16,5 @@ class GradeCommandSpec extends ObjectBehavior
     {
         $this->shouldHaveType('Symfony\Component\Console\Command\Command');
     }
+
 }
