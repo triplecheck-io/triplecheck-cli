@@ -16,4 +16,14 @@ class AnalyzeCommandSpec extends ObjectBehavior
     {
         $this->shouldHaveType('Symfony\Component\Console\Command\Command');
     }
+
+    function it_should_have_a_name()
+    {
+        $this->getName()->shouldReturn('analyze');
+    }
+
+    function it_should_have_a_description()
+    {
+        $this->getDescription()->shouldReturn('Analyze the current path and return the a report with the problems if any.');
+    }
 }
