@@ -2,6 +2,9 @@
 
 namespace Triplecheck\Command;
 
-class AnalyzeCommand {
+use Symfony\Component\Console\Command\Command;
+
+class AnalyzeCommand extends Command
+{
 
 }
